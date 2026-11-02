@@ -1,0 +1,11 @@
+torch>=2.0
+earthengine-api
+geemap
+geopandas
+rasterio
+gdal
+scikit-learn
+xgboost
+pandas
+numpy
+matplotlib
