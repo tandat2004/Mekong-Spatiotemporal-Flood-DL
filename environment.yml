@@ -1,6 +1,7 @@
 name: mekong-flood
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - pytorch>=2.0
