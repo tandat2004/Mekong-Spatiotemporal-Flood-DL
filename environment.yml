@@ -18,4 +18,8 @@ dependencies:
   - torchvision=0.29.*=cpu*
   - earthengine-api
   - geemap=0.38
+<<<<<<< HEAD
   - jupyter
+=======
+  - jupyter
+>>>>>>> 5b410edb4737b759d3bc0941696056f2d947926c
