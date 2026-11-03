@@ -1,11 +1,15 @@
-torch>=2.0
-earthengine-api
-geemap
-geopandas
-rasterio
-gdal
-scikit-learn
-xgboost
-pandas
-numpy
-matplotlib
+# Windows setup: conda env create -f environment.yml --solver libmamba
+GDAL==3.13.3
+rasterio==1.5.2
+geopandas==1.2.0
+pyproj==3.8.0
+numpy==2.5.4
+pandas==3.1.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+xgboost==3.4.2
+torch==2.14.1
+torchvision==0.29.2
+earthengine-api==1.7.51
+geemap==0.38.4
+jupyter==1.1.1
