@@ -1,21 +1,21 @@
 name: mekong-flood
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
-  - python=3.10
-  - pytorch>=2.0
-  - torchvision
-  - gdal
-  - geemap
-  - earthengine-api
+  - python=3.12
+  - pip
+  - gdal=3.13
+  - rasterio=1.5
   - geopandas
-  - rasterio
+  - pyproj
+  - numpy>=2,<3
+  - pandas
+  - matplotlib
   - scikit-learn
   - xgboost
-  - pandas
-  - numpy
-  - matplotlib
+  - pytorch=2.14.*=cpu*
+  - torchvision=0.29.*=cpu*
+  - earthengine-api
+  - geemap=0.38
   - jupyter
-  - pip:
-    - pyproj
